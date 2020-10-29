@@ -1,0 +1,30 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "School platform to see tasks and schedule",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production && node ./src/api/server",
+    "dev": "nodemon ./src/api/server"
+  },
+  "keywords": [
+    "School",
+    "dashboard",
+    "schedule"
+  ],
+  "author": "German Tellez Vanegas",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "pg": "^8.4.2",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
